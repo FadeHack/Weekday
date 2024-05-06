@@ -1,6 +1,6 @@
 import React from 'react';
-import Filters from './Filters';
-import Cards from './Cards';
+import Filters from './components/Filters';
+import Cards from './components/Cards';
 
 function Main() {
   return (
