@@ -24,14 +24,16 @@ const useStyles = makeStyles({
   readMore: {
     position: 'absolute',
     display: 'flex',
+    fontWeight: 'bolder',
     width: '100%',
     zIndex: '10',
     bottom: '0',
     alignContent: 'center',
-    backgroundColor: 'rgba(255, 255, 255, 0.2)', // Slight opaque background
+    backgroundColor: 'rgba(255, 255, 255, 0.6)', // Slight opaque background
     padding: '5% 40%',
     borderRadius: '4px',
     textDecoration: 'none',
+    
   },
 });
 

@@ -13,7 +13,7 @@ const FiltersContainer = styled.div`
   align-items: flex-end;
 `;
 
-function Filters() {
+function Filters({ filters, onFilterChange }) {
     const [role, setRole] = useState([]);
     const [experience, setExperience] = useState([]);
     const [location, setLocation] = useState([]);
